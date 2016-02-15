@@ -1,0 +1,490 @@
+/*
+	Overflow by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+	.box.style1 .image:after
+	{
+    padding-top: 56.25%; // 16:9 ratio
+    display: block;
+    content: '';
+	}
+   
+   ul.default {
+		list-style: disc;
+		padding-left: 1em;
+		line-height: 1.5em;
+		font-size: 0.4em;
+	}
+
+	.box.style3
+		{
+			padding: 0.5em 1em 0.5em 1em;
+			background-size: 270%;
+		}
+			
+		.poptrox-popup .caption
+		{
+			font-size: 0.4em;
+			letter-spacing: 1px;
+		}
+		.image img{
+	height: auto!important;
+	}
+	
+	.lastVideoElement{
+	margin: 15%;
+	}
+	
+	.noLine:before{
+	border:none!important;
+	}
+	
+	.imageTitleMobile{
+	font-size:0.5em;
+	line-height: normal;
+	background: #2D7988;
+	color:white;
+	display:inherit;
+	}
+	
+	.imageTitleDesktop{
+	display:none;
+	}
+	
+	*
+	{
+		text-shadow: none !important;
+	}
+    
+	a:hover{
+	border-bottom: dotted 1px rgba(53,184,143,0.5);
+	}
+	
+	code {
+		font-family: monospace;
+		font-style: italic;
+		font-weight: none;
+		font-size:0.8em;
+		text-shadow: none;
+	}
+
+	iframe{
+		width: 100%;
+		height: 230px;
+		border: 2px solid white;
+	}
+
+	.image.video{
+		display: block;
+		width: 100%;
+		height: auto !important;
+		background-color: #2D7988;
+	}
+			
+	header p{
+		text-align: center;
+		font-size: 0.4em;
+		margin: auto;
+		margin-bottom: -1.5em !important;
+		margin-top: -0.8em !important;
+		width: 100%;
+}
+		
+	body
+	{
+		background-color:		#2D7988;
+		background-image:		url('../images/bg.jpg');
+		background-repeat:		no-repeat;
+		background-size:		100%;
+		background-attachment:	scroll;
+	}
+	
+	body,input,textarea,select
+	{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 18pt;
+		line-height: 1.75em;
+		font-weight: 300;
+		--letter-spacing: 1px;
+		color: #3a3939;
+		text-shadow: 0 0 0.5px rgba(58,57,57,0.25);
+		-webkit-text-stroke: 0.25px;
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1em;
+	}
+	
+	h2
+	{
+		font-size: 0.5em;
+		letter-spacing: 1px;
+		text-align: center;
+		font-weight: bold;
+		line-height: 1.2em;
+	}
+
+	/* List */
+
+		ul
+		{
+		}
+
+			ul.default
+			{
+			}
+			
+				ul.default li
+				{
+					padding-left: 0.5em;
+				}		
+
+			ul.icons
+			{
+			}	
+			
+				ul.icons li
+				{
+				}
+				
+					ul.icons a
+					{
+						width: 2em;
+						height: 2em;
+						line-height: 2em;
+					}
+
+			ul.menu
+			{
+			}
+			
+				ul.menu li
+				{
+					display: block;
+					padding: 0;
+					border: 0;
+					margin: 1em 0 0 0;
+				}
+				
+				ul.menu li:first-child
+				{
+					margin-top: 0;
+				}
+
+			ul.actions
+			{
+			}
+			
+				ul.actions li
+				{
+					display: block;
+					margin: 1em 0 0 0;
+				}
+				
+				ul.actions li:first-child
+				{
+					margin-top: 0;
+				}
+
+		ol
+		{
+		}
+
+			ol.default
+			{
+			}
+
+				ol.default li
+				{
+					padding-left: 0.25em;
+				}
+
+	/* Button */
+		
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			color: #3a3939;
+			background: #fff;
+			box-shadow: 2px 2px 10px #000;
+			font-weight: bold;
+			width: auto;
+			margin: auto;
+			--margin-top: 15% !important;
+			padding: 0 5% !important;
+			font-size: 0.5em !important;
+		}
+
+	/* Box */
+
+		.box
+		{
+			margin-top: 2.25em;
+		}
+
+			.box:after
+			{
+				top: -3.25em;
+				height: 3.3em;
+			}
+		
+			.box:before
+			{
+				width: 45px;
+				height: 33px;
+				top: -1.125em;
+				margin-left: -22.5px;
+				margin-top: -16.5px;
+				background-size: 45px 33px;
+			}
+
+			.box.style1
+			{
+				padding: 0;
+				text-align: center;
+			}
+			
+				.box.style1 .image
+				{
+					position: relative !important;
+					left: 0 !important;
+					width: 100% !important;
+					--height: 230px !important;
+				}
+
+					.box.style1 .image img
+					{
+						position: relative;
+						height: auto;
+						width: 100%;
+					}
+
+				.box.style1 .inner
+				{
+					margin: 0 !important;
+					padding: 1em 0.25em 1em 0.25em !important;
+				}
+				.box.style1 .inner > :last-child{
+					margin: 1% 5%;
+					text-align: justify;
+					font-size: 0.4em;
+					letter-spacing: 1px;
+				}
+
+			.box.style2
+			{
+			}
+			
+				.box.style2 .inner
+				{
+				}
+
+					.box.style2 .inner .row
+					{
+					}
+					
+						.box.style2 .inner .row:before
+						{
+							display: none;
+						}
+
+					.box.style2 .inner .image
+					{
+						padding: 0;
+						width: auto;
+						margin: 0 auto 20px auto;
+						z-index: 100;
+					}
+
+			.box.style3
+			{
+				--padding: 2em 1.25em 2em 1.25em;
+			}
+			
+			.box.style4
+			{
+			}
+			
+				.box.style4 .inner
+				{
+				}
+
+					.box.style4 .inner .row
+					{
+					}
+					
+						.box.style4 .inner .row:before
+						{
+							display: none;
+						}
+
+					.box.style4 .inner .image
+					{
+						padding: 0;
+						max-width: 250px;
+						margin: 0 auto 20px auto;
+					}
+			.box.style4:before{
+					background:none!important;
+					}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 1em 1em 0em 1em !important;
+		margin-bottom: 2% !important;
+	}
+		#header header
+		{
+			padding-left: 2em;
+			padding-right: 2em;
+			margin-right: 50% !important;
+			text-align: left;
+		}
+			#header header p{
+			border-top: solid 3px rgba(255,255,255,0.5);
+			font-size: 0.5em !important;
+			line-height: 1.1em !important;
+			text-align: left;
+			}
+		
+			#header header h1
+			{
+				font-size: 1em !important;
+				letter-spacing: 0.15em !important;
+				line-height: 1.2em !important;
+			}
+			
+			#header footer{
+				display: none;
+			}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		background-size: auto 150%;
+		width: 100%;
+		margin: auto;
+		padding: 0 !important;
+		padding-left: 2%% !important;
+		padding-right: 2% !important;
+		padding-top: 2% !important;
+		z-index: 10;
+	}
+
+		#banner header
+		{
+			margin: auto;
+			width: 100%;
+			background: rgba(0, 0, 0, 0.1);
+		}
+		
+			#banner header h2
+			{
+				font-size: 0.5em;
+				letter-spacing: 1px !important;
+				line-height: 1.2em !important;
+			}
+		#banner p{
+			margin: auto;
+			margin-top: 1%;
+			text-align: justify;
+			font-size: 0.4em;
+			letter-spacing: 1px;
+			text-shadow: 2px 2px 1px black;
+			letter-spacing: 1px;
+			width: 95%;
+		}
+		
+		#banner footer{
+			margin: auto;
+			width: 100%;
+		}
+		
+		#banner .button{
+			width: 50% !important;
+			margin: auto;
+			margin-bottom: 10% !important;
+			margin-top: 10% !important;
+		}
+
+		#banner br {
+			display: block !important;
+		}
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer
+	{
+	margin: 4.5em 0 0 0;
+	}
+
+		#footer .icons
+		{
+			padding: 0.5em 1.25em 0.5em 1.25em;
+		}
+		
+		#footer .copyright
+		{
+			font-size: 0.5em;
+			margin: 0 0 4em 0;
+		}
+		
+		#footer:before{
+			width: 45px;
+			height: 33px;
+			bottom: -1.125em;
+			margin-left: -22.5px;
+			margin-bottom: -16.5px;
+			background-size: 45px 33px;
+			margin-top: 20%;
+		}
+		
+		#footer:after
+			{
+				top: -4.5em;
+				left: 50%;
+				height: 4.5em;
+				border-left: solid 1px #fff;
+			}
+	}
+
+/*********************************************************************************/
+/* Poptrox                                                                       */
+/*********************************************************************************/
+
+	.poptrox-popup
+	{
+	}
+	
+		.poptrox-popup .nav-next,
+		.poptrox-popup .nav-previous
+		{
+			opacity: 1.0;
+		}
+
+			.poptrox-popup .nav-next:before,
+			.poptrox-popup .nav-previous:before
+			{
+				display: none;
+			}
+		
+		.poptrox-popup .closer
+		{
+			opacity: 0.5;
+		}
